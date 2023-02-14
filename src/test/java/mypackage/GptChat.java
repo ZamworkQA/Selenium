@@ -9,10 +9,10 @@ public class GptChat {
             Random rand = new Random();
             int num;
             do {
-                num = rand.nextInt(10000) + 1;
+                num = rand.nextInt(1000) + 1;
                 raz++;
                 System.out.println("Попытка №: "+ raz + " Выпало число: " + num);
-            } while (num != 1987);
+            } while (num != 987);
             }
         }
     }
